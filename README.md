@@ -12,6 +12,8 @@
 
         [ ] get a list
 
+            [ ] From JSON file
+
         [ ] add a new member 
 
             [ ] Save in JSON file 
@@ -24,6 +26,37 @@
 
             [ ] Save in JSON file 
 
+    [ ] Mods
+
+        [ ] List of mods
+
+            [ ] From JSON file 
+
+        [ ] Add a new Mod
+
+            [ ] Save in JSON file 
+
+        [ ] Remove a Mod
+
+            [ ] Save in JSON file
+
+    [ ] GitHub Projects
+
+        [ ] List of Projects
+
+            [ ] From JSON file 
+
+        [ ] Add a new Project
+
+            [ ] Save in JSON file 
+
+        [ ] Update Project
+
+            [ ] Save in JSON file 
+        
+        [ ] Remove Project
+
+            [ ] Save in JSON file 
 
 ---
 
