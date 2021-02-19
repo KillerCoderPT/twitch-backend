@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #12081f;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+  margin-bottom: 5vh;
+}
+
+header h1 {
+  font-family: 'Reggae One', cursive;
+  font-size: 3.6rem;
+  color: #eee;
+  text-shadow: 2px 2px #ff0000;
+}
+
+main {
+  width: 40vw;
+  height: 70vh;
+  margin: 0 auto;
+  border: 1px solid red;
+  overflow-y: auto;
+}
+
+
+/* ----------- Tablet ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    main {
+      width: 60vw;
+    }
+}
+
+/* ----------- Mobile ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    header h1 {
+      font-size: 2.7rem;
+    }
+    main {
+      width: 80vw;
+    }
+}

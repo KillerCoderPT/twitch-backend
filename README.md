@@ -6,8 +6,6 @@
 
     [x] Get status from a especific user
 
-    [ ] Get List of repos from github
-
     [ ] Buddies List endpoints:
 
         [ ] get a list
@@ -40,23 +38,27 @@
 
             [ ] Save in JSON file
 
-    [ ] GitHub Projects
+    [x] GitHub Projects
 
-        [ ] List of Projects
+        [X] List of Projects related with Twitch
 
-            [ ] From JSON file 
+            [X] From JSON file 
 
-        [ ] Add a new Project
-
-            [ ] Save in JSON file 
-
-        [ ] Update Project
-
-            [ ] Save in JSON file 
+        [x] Add a new Project (Is done and It isn't) (Right only reads from the Project.json file)  
         
-        [ ] Remove Project
+        [x] Remove Project (Is done and It isn't) (Right only reads from the Project.json file)  
 
-            [ ] Save in JSON file 
+        [x] Get Project by ID
+
+    [ ] Express Server
+
+        [x] Add html file to the default endpoint
+
+        [ ] Styled the file
+
+        [ ] Connect the file with Socket.io
+
+        [ ] Get new Messages
 
 ---
 
@@ -72,3 +74,10 @@
 
         [ ] update command
 
+#### TODO:
+
+    [ ] Change name Functions
+
+        [ ] twitch.status = getStatus
+
+        [x] github.getStatus = getProjects
