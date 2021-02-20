@@ -27,6 +27,8 @@ body {
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+/*------ Sidebar ------*/
+
 .bg-sidebar-right {
   background-color: #455e89;
   border-top-right-radius: 15px;
@@ -42,6 +44,17 @@ body {
 .sidebar-body ul li {
   display: flex;
   justify-content: space-between;
+}
+
+/*------ ChatBox ------*/
+
+.chatbox-body {
+  overflow-y: scroll;
+}
+
+.emoticon {
+  height: 28px;
+  vertical-align: middle;
 }
 
 /* 

@@ -27,6 +27,15 @@ app.get("/", (req, res) => {
 // Twitch
 app.get("/twitch-status", twitch.status(axios));
 app.get("/twitch-status/:id", twitch.statusById(axios));
+app.get("/twitch-badges", (req, res) => {
+  axios
+    .get("https://badges.twitch.tv/v1/badges/global/display", {
+      headers: {
+        "content-type": "application/json",
+      },
+    })
+    .then((resp) => res.json(resp.data.badge_sets));
+});
 
 // GitHub
 app.get("/github", github.getProjects(axios));
@@ -36,18 +45,10 @@ io.on("connect", (socket) => {
   console.log("a user connect with id: ", socket.id);
 
   socket.on("sendMessage", (obj) => {
-    console.log(obj.userstate);
-    const send = {
-      badges: obj.userstate.badges,
-      username: obj.userstate["display-name"],
-      mod: obj.userstate.mod,
-      turbo: obj.userstate.turbo,
-      "message-type": obj.userstate["message-type"],
-      message: obj.message,
-    };
+    console.log(obj);
 
     // Emit to frontend
-    io.emit("sendMessage", send);
+    io.emit("sendMessage", obj);
   });
 
   socket.on("disconnect", () => {

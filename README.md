@@ -136,3 +136,5 @@
         [ ] Choose a body font
 
         [x] Layout for messages
+
+    [ ] Find a new way to fetch the data from the backend on the endpoint /twitch-badges
