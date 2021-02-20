@@ -1,60 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
+body {
+  background-color: #892b64;
 }
 
+.bg-nav {
+  background-color: #1780a1;
+}
+
+.showbp {
+  border: 1px solid rebeccapurple;
+}
+
+.showbr {
+  border: 1px solid red;
+}
+
+.showbg {
+  border: 1px solid green;
+}
+
+.container-vh {
+  height: 75vh;
+  border-radius: 15px;
+  background-color: #2e6f95;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.bg-sidebar-right {
+  background-color: #455e89;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-left: 1px solid #a01a58;
+}
+
+.sidebar-body ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.sidebar-body ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 
 body {
   background-color: #12081f;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  margin-top: 4vh;
-  margin-bottom: 5vh;
-}
-
 header h1 {
-  font-family: 'Reggae One', cursive;
-  font-size: 3.6rem;
+  font-family: "Reggae One", cursive;
   color: #eee;
   text-shadow: 2px 2px #ff0000;
 }
 
 main {
-  width: 40vw;
   height: 70vh;
-  margin: 0 auto;
   border: 1px solid red;
   overflow-y: auto;
-}
-
-
-/* ----------- Tablet ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    main {
-      width: 60vw;
-    }
-}
-
-/* ----------- Mobile ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    header h1 {
-      font-size: 2.7rem;
-    }
-    main {
-      width: 80vw;
-    }
-}
+  color: #eee;
+} */

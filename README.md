@@ -50,15 +50,60 @@
 
         [x] Get Project by ID
 
-    [ ] Express Server
+    [x] Express Server
 
         [x] Add html file to the default endpoint
 
-        [ ] Styled the file
 
-        [ ] Connect the file with Socket.io
+# Frontend
 
-        [ ] Get new Messages
+    [ ] Styled the file
+
+        [x] Navbar
+
+        [ ] chabox
+
+            [ ] Header
+
+            [ ] Body
+
+            [ ] Footer
+
+        [ ] Sidebar
+
+            [ ] Display the users
+
+    [x] Connect with Socket.io
+
+    [ ] Get Messages
+
+        [x] Get and show the messages
+
+        [ ] Display the bages
+
+            [x] Already Display
+
+            [ ] Display more than one (?)
+
+        [ ] Display the name
+
+            [ ] Color the name
+
+        [ ] Display emotes
+
+            [ ] get the emotes img
+
+            [x] get the emotes text
+
+            [ ] display emotes if the user type
+
+    [ ] Sidebar 
+
+        [ ] List the current users
+
+            [ ] Display the name
+
+            [ ] Display the badges
 
 ---
 
@@ -81,3 +126,13 @@
         [ ] twitch.status = getStatus
 
         [x] github.getStatus = getProjects
+
+    [ ] Frontend
+
+        [x] Responsive Layout
+
+        [x] Colors (https://coolors.co/b7094c-a01a58-892b64-723c70-5c4d7d-455e89-2e6f95-1780a1-0091ad)
+
+        [ ] Choose a body font
+
+        [x] Layout for messages
